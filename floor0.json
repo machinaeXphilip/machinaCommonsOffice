@@ -109,7 +109,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"Globaltcmdire"
+                 "value":"tcmdire"
                 }],
          "type":"tilelayer",
          "visible":true,
