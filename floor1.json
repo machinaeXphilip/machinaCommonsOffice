@@ -1221,29 +1221,6 @@
          "tilecount":504,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":0,
-         "firstgid":1101,
-         "grid":
-            {
-             "height":1,
-             "orientation":"orthogonal",
-             "width":1
-            },
-         "margin":0,
-         "name":"beach",
-         "spacing":0,
-         "tilecount":1,
-         "tileheight":4256,
-         "tiles":[
-                {
-                 "id":0,
-                 "image":"..\/Pipoya RPG Tileset 32x32\/[Base]BaseChip_pipo.png",
-                 "imageheight":4256,
-                 "imagewidth":256
-                }],
-         "tilewidth":256
         }],
  "tilewidth":32,
  "type":"map",
