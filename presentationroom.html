@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>machina eX' presentation conference room</title>
+  </head>
+  <body>
+    <div id="whiteboard" style="height: 68vh">
+      <!--
+        <iframe
+        src="https://wbo.ophir.dev/boards/hd4-g6-W3zHTT--NglE6rb8JLVf0T4Hi8M2zvEjvWTo-"
+        frameborder="0"
+        style="height: 100%; width: 100%"
+      ></iframe>
+        -->
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://miro.com/app/live-embed/o9J_lXhGbgU=/?moveToViewport=13676,7565,13514,7264"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="meet" style="height: 30vh"></div>
+
+    <script src="https://meet.jit.si/external_api.js"></script>
+    <script>
+      const domain = "meet.jit.si";
+      const options = {
+        roomName: "Globaltcmdire",
+        width: "100%",
+        height: "100%",
+        parentNode: document.querySelector("#meet"),
+      };
+      const api = new JitsiMeetExternalAPI(domain, options);
+    </script>
+  </body>
+</html>
